@@ -11,8 +11,43 @@ body {
 
 header {
   background: linear-gradient(45deg, #ff9a8b, #ff6a88, #ff99ac);
-  padding: 20px;
+  padding: 10px;
   color: white;
   font-size: 1.5em;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.principalSec {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  height: 60%;
+}
+
+.principalImg {
+  border: 4px;
+  border-style: solid;
+  border-color: #ff99ac;
+  border-radius: 20px;
+  margin: 20px;
+  max-width: 30%;
+}
+
+.titleSec {
+  font-size: 2rem;
+  margin-top: 20%;
+  color: #ff6a88;
+}
+
+.productSec {
+  height: 10%;
+}
+
+.productsGallery {
+  display: flex;
+  justify-content: center;
+}
+
+.imgGallery {
+  height: 2%;
 }
