@@ -1,47 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Floricultura Bela Flor</title>
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
     <header>
       <h1>Floricultura Bela Flor</h1>
-      <p>As mais belas flores para todas as ocasiões!</p>
+      <p>Onde a beleza das flores encontra o seu coração.</p>
     </header>
 
-    <section class="principalSec">
-      <img class="principalImg" src="./public/Principal.jpg" />
-      <div>
-        <h2 class="titleSec">Sobre Nós</h2>
-        <p>
-          Somos apaixonados por flores e levamos beleza e perfume para sua vida.
-        </p>
-      </div>
-    </section>
+    <main>
+      <section class="principalSec">
+        <img
+          class="principalImg"
+          src="public/Principal.jpg"
+          alt="Arranjo de flores diversas"
+        />
+        <div>
+          <h2>Sobre Nós</h2>
+          <p>
+            Na Floricultura Bela Flor, cultivamos mais do que flores; cultivamos
+            emoções. Há mais de 10 anos, nossa paixão é transformar momentos em
+            lembranças inesquecíveis, através da beleza e do perfume das nossas
+            flores. Seja para celebrar, confortar ou simplesmente alegrar o dia,
+            temos o arranjo perfeito para expressar seus sentimentos.
+          </p>
+        </div>
+      </section>
 
-    <section class="productSec">
-      <h2>Nossos Produtos</h2>
-      <div class="productsGallery">
-        <img class="imgGallery" src="./public/background.jpg" />
-        <img class="imgGallery" src="./public/Rosas.jpg" />
-        <img class="imgGallery" src="./public/tulipa.jpg" />
-        <img class="imgGallery" src="./public/buque.jpg" />
-      </div>
-    </section>
+      <section>
+        <h2>Nossos Produtos</h2>
+        <div class="productsGallery">
+          <img
+            class="imgGallery"
+            src="public/buque.jpg"
+            alt="Lindo Buquê de flores"
+          />
+          <img
+            class="imgGallery"
+            src="public/Rosas.jpg"
+            alt="Elegante Arranjo de flores"
+          />
+          <img
+            class="imgGallery"
+            src="public/tulipa.jpg"
+            alt="Belas orquídeas"
+          />
+        </div>
+      </section>
 
-    <section>
-      <h2>Fale Conosco</h2>
-      <p>Entre em contato para encomendar seu arranjo personalizado.</p>
-      <button>Entre em Contato</button>
-    </section>
+      <section class="contactSection">
+        <h2>Fale Conosco</h2>
+        <div class="contactInfo">
+          <p>Telefone: (00) 1234-5678</p>
+          <p>Email: contato@floriculturabelaflores.com</p>
+          <p>Endereço: Rua das Flores, 123 - Cidade</p>
+        </div>
+        <form class="contactForm">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Nome"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Mensagem"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
 
     <footer>
-      <p>&copy; 2025 Floricultura Bela Flor - Todos os direitos reservados.</p>
+      <p>&copy; 2023 Floricultura Bela Flor. Todos os direitos reservados.</p>
+      <p>
+        <a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a>
+      </p>
     </footer>
-
-    <script src="scripts.js"></script>
   </body>
 </html>
